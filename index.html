@@ -8,41 +8,40 @@
     <script src="script.js"></script>
 </head>
 <body>
-   <div class="container" style="padding:25px;
-    margin:50px;">
-        <div class="calculator grid">
+   <div class="container" style="padding: 25px; margin: 50px">
+        <div class="calculator grid" style="width: 365px; max-width: 100%;">
             <div class="flex-grid">
-                <input type="input" value="0"></input>
+                <input type="number" class="equation"></input>
             </div>
             <div class="flex-grid">
-                <div class="btn flex-grid__col">(</div>
-                <div class="btn flex-grid__col">)</div>
-                <div class="btn flex-grid__col">%</div>
-                <div class="btn btn--info flex-grid__col">AC</div>
+                <div id="operation" class="btn btn--info flex-grid__col" value="(">(</div>
+                <div id="operation" class="btn btn--info flex-grid__col" value=")">)</div>
+                <div id="operation" class="btn btn--info flex-grid__col" value="%">%</div>
+                <div class="btn btn--info flex-grid__col" value="ac">AC</div>
             </div>
             <div class="flex-grid">
-                <div class="btn flex-grid__col">7</div>
-                <div class="btn flex-grid__col">8</div>
-                <div class="btn flex-grid__col">9</div>
-                <div class="btn btn--info flex-grid__col">/</div>
+                <div id="number" class="btn flex-grid__col" value="7">7</div>
+                <div id="number" class="btn flex-grid__col" value="8">8</div>
+                <div id="number" class="btn flex-grid__col" value="9">9</div>
+                <div id="operation" class="btn btn--info flex-grid__col" value="/">/</div>
             </div>
             <div class="flex-grid">
-                <div class="btn flex-grid__col">4</div>
-                <div class="btn flex-grid__col">5</div>
-                <div class="btn flex-grid__col">6</div>
-                <div class="btn btn--info flex-grid__col">x</div>
+                <div id="number" class="btn flex-grid__col" value="4">4</div>
+                <div id="number" class="btn flex-grid__col" value="5">5</div>
+                <div id="number" class="btn flex-grid__col" value="6">6</div>
+                <div id="operation" class="btn btn--info flex-grid__col" value="*">x</div>
             </div>
             <div class="flex-grid">
-                <div class="btn flex-grid__col">1</div>
-                <div class="btn flex-grid__col">2</div>
-                <div class="btn flex-grid__col">3</div>
-                <div class="btn btn--info flex-grid__col">-</div>
+                <div id="number" class="btn flex-grid__col" value="1">1</div>
+                <div id="number" class="btn flex-grid__col" value="2">2</div>
+                <div id="number" class="btn flex-grid__col" value="3">3</div>
+                <div id="operation" class="btn btn--info flex-grid__col" value="-">-</div>
             </div>
             <div class="flex-grid">
-                <div class="btn flex-grid__col">0</div>
-                <div class="btn flex-grid__col">.</div>
-                <div class="btn btn--success flex-grid__col">=</div>
-                <div class="btn btn--info flex-grid__col">+</div>
+                <div id="number" class="btn flex-grid__col" value-"0">0</div>
+                <div id="operation" class="btn btn--info flex-grid__col" value=".">.</div>
+                <div id="operation" class="btn btn--success flex-grid__col" value="=">=</div>
+                <div id="operation" class="btn btn--info flex-grid__col" value="+">+</div>
             </div>
        </div>
     </div>
