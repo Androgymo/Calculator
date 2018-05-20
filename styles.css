@@ -2,3 +2,10 @@ input{
 	text-align: right;
 }
 
+
+.calculator-grid{
+	margin: 160px auto;
+    max-width: 380px;
+    border: 1px solid lightgrey;
+    padding: 10px;
+}
